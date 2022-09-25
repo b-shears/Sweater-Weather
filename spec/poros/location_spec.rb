@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Location do 
     it 'exists and has attributes' do 
-        json_response = file_fixture('test_location_data.txt').read 
+        json_response = file_fixture('spec_location_data.txt').read 
 
         data = JSON.parse(json_response, symbolize_names: true)
         
