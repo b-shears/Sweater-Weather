@@ -1,10 +1,9 @@
 require 'rails_helper'
 
-RSpec.describe MapQuestService, :vcr do 
-
+RSpec.describe LocationService, :vcr do 
     context "#search_location(location)" do 
         it 'can retrieve the latitude and longitude of a city you search for' do 
-            location = MapQuestService.search_location("Denver, CO")
+            location = LocationService.search_location("Denver, CO")
 
             expect(location).to be_a(Hash)
             expect(location).to have_key(:results)
@@ -22,5 +21,4 @@ RSpec.describe MapQuestService, :vcr do
             expect(location[:results].first[:locations].first[:latLng][:lng]).to be_a(Float)
         end 
     end
-
 end 
