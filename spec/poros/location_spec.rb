@@ -2,16 +2,15 @@ require 'rails_helper'
 
 RSpec.describe Location do 
     it 'exists and has attributes' do 
-        attributes = { 
-                        "lat": 39.738453,
-                        "lng": -104.984853
-                     }
-        
-        location = Location.new(attributes)
+        json_response = file_fixture('test_location_data.txt').read 
 
-        expect(location).to be_a(Location)
+        data = JSON.parse(json_response, symbolize_names: true)
         
-        expect(location.latitude).to eq(attributes[:lat])
-        expect(location.longitude).to eq(attributes[:lng])
+        location = Location.new(data)
+        
+        expect(location).to be_a(Location)
+       
+        expect(location.latitude).to eq(39.738453)
+        expect(location.longitude).to eq(-104.984853)
     end 
 end 
