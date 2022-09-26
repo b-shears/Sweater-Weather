@@ -12,10 +12,9 @@ RSpec.describe BookFacade do
         book_objects = books[0]
 
         expect(book_objects).to be_an(Array)
+        
         expect(book_objects.count).to eq(5)
         expect(book_objects.first).to be_an_instance_of(Book)
         expect(book_objects.last).to be_an_instance_of(Book)
-
     end 
-
 end 
