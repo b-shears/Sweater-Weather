@@ -1,3 +1,5 @@
+require 'rails_helper'
+
 RSpec.describe 'forecasts API' do
     it 'sends forecast data based on the location that is passed in the params', :vcr do
         headers = { "CONTENT_TYPE" => "application/json" }

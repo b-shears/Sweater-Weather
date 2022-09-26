@@ -1,5 +1,5 @@
 class BooksSerializer
-   def location_forecast_books(location, forecast, books)
+   def self.location_forecast_books(location, forecast, books)
     {
     "data": {
         "id": "nil",

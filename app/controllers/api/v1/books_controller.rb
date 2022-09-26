@@ -8,7 +8,7 @@ class Api::V1::BooksController < ApplicationController
 
             forecast = ForecastFacade.create_forecast(location.latitude, location.longitude)
 
-            books = BooksFacade.create_books(params[:location], params[:quantity])
+            books = BookFacade.create_books(params[:location], params[:quantity])
 
             render json: BooksSerializer.location_forecast_books(params[:location], forecast, books)
         end 
