@@ -6,5 +6,4 @@ RSpec.describe 'ForecastFacade' do
 
         expect(forecast).to be_a(Forecast)
     end 
-
 end 

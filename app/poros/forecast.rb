@@ -20,7 +20,7 @@ class Forecast
                     visibility: current_weather[:visibility],
                     conditions: current_weather[:weather][0][:description],
                     icon: current_weather[:weather][0][:icon]
-                  } 
+                  }   
     end 
 
     def format_daily_weather(daily_weather)
