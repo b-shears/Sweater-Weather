@@ -3,7 +3,7 @@ class Api::V1::SessionsController < ApplicationController
         user = User.find_by(email: params[:email])
             if user&.authenticate(params[:password])
                  session_json_response(user)
-             else 
+            elsif
                 error_response("User does not exist, please sign up!", 401)
             end
         end
