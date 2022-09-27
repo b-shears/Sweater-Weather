@@ -1,0 +1,271 @@
+{
+    "numFound": 47113,
+    "start": 0,
+    "numFoundExact": true,
+    "docs": [
+        {
+            "key": "/works/OL8503198W",
+            "type": "work",
+            "seed": [
+                "/books/OL10909613M",
+                "/works/OL8503198W",
+                "/authors/OL2843451A"
+            ],
+            "title": "Denver, Co",
+            "title_suggest": "Denver, Co",
+            "edition_count": 1,
+            "edition_key": [
+                "OL10909613M"
+            ],
+            "publish_date": [
+                "January 2001"
+            ],
+            "publish_year": [
+                2001
+            ],
+            "first_publish_year": 2001,
+            "isbn": [
+                "0762507845",
+                "9780762507849"
+            ],
+            "last_modified_i": 1338943517,
+            "ebook_count_i": 0,
+            "ebook_access": "no_ebook",
+            "has_fulltext": false,
+            "public_scan_b": false,
+            "publisher": [
+                "Universal Map Enterprises"
+            ],
+            "language": [
+                "eng"
+            ],
+            "author_key": [
+                "OL2843451A"
+            ],
+            "author_name": [
+                "Universal Map"
+            ],
+            "publisher_facet": [
+                "Universal Map Enterprises"
+            ],
+            "_version_": 1735677215044009984,
+            "author_facet": [
+                "OL2843451A Universal Map"
+            ]
+        },
+        {
+            "key": "/works/OL4437736W",
+            "type": "work",
+            "seed": [
+                "/books/OL10911511M",
+                "/works/OL4437736W",
+                "/authors/OL882946A"
+            ],
+            "title": "Denver Co Deluxe Flip Map",
+            "title_suggest": "Denver Co Deluxe Flip Map",
+            "edition_count": 1,
+            "edition_key": [
+                "OL10911511M"
+            ],
+            "publish_date": [
+                "January 2003"
+            ],
+            "publish_year": [
+                2003
+            ],
+            "first_publish_year": 2003,
+            "isbn": [
+                "0762557362",
+                "9780762557363"
+            ],
+            "last_modified_i": 1260838560,
+            "ebook_count_i": 0,
+            "ebook_access": "no_ebook",
+            "has_fulltext": false,
+            "public_scan_b": false,
+            "publisher": [
+                "Universal Map Enterprises"
+            ],
+            "language": [
+                "eng"
+            ],
+            "author_key": [
+                "OL882946A"
+            ],
+            "author_name": [
+                "Laura Ryder"
+            ],
+            "publisher_facet": [
+                "Universal Map Enterprises"
+            ],
+            "_version_": 1735672139959238658,
+            "author_facet": [
+                "OL882946A Laura Ryder"
+            ]
+        },
+        {
+            "key": "/works/OL8808821W",
+            "type": "work",
+            "seed": [
+                "/books/OL8537031M",
+                "/works/OL8808821W",
+                "/authors/OL3010394A"
+            ],
+            "title": "University of Denver Co 2007",
+            "title_suggest": "University of Denver Co 2007",
+            "edition_count": 1,
+            "edition_key": [
+                "OL8537031M"
+            ],
+            "publish_date": [
+                "July 1, 2006"
+            ],
+            "publish_year": [
+                2006
+            ],
+            "first_publish_year": 2006,
+            "number_of_pages_median": 180,
+            "oclc": [
+                "150368610"
+            ],
+            "isbn": [
+                "9781427401687",
+                "1427401683"
+            ],
+            "last_modified_i": 1304171421,
+            "ebook_count_i": 0,
+            "ebook_access": "no_ebook",
+            "has_fulltext": false,
+            "public_scan_b": false,
+            "cover_edition_key": "OL8537031M",
+            "cover_i": 1847337,
+            "publisher": [
+                "College Prowler"
+            ],
+            "language": [
+                "eng"
+            ],
+            "author_key": [
+                "OL3010394A"
+            ],
+            "author_name": [
+                "College Prowler"
+            ],
+            "id_goodreads": [
+                "2985742"
+            ],
+            "publisher_facet": [
+                "College Prowler"
+            ],
+            "_version_": 1735677464197201922,
+            "author_facet": [
+                "OL3010394A College Prowler"
+            ]
+        },
+        {
+            "key": "/works/OL10910782M",
+            "type": "work",
+            "seed": [
+                "/books/OL10910782M",
+                "/works/OL10910782M"
+            ],
+            "title": "Denver, Co Vicinity (City Wall Maps)",
+            "title_suggest": "Denver, Co Vicinity (City Wall Maps)",
+            "edition_count": 1,
+            "edition_key": [
+                "OL10910782M"
+            ],
+            "publish_date": [
+                "January 2001"
+            ],
+            "publish_year": [
+                2001
+            ],
+            "first_publish_year": 2001,
+            "isbn": [
+                "0762538627",
+                "9780762538621"
+            ],
+            "last_modified_i": 1655272482,
+            "ebook_count_i": 0,
+            "ebook_access": "no_ebook",
+            "has_fulltext": false,
+            "public_scan_b": false,
+            "publisher": [
+                "Universal Map Enterprises"
+            ],
+            "language": [
+                "eng"
+            ],
+            "publisher_facet": [
+                "Universal Map Enterprises"
+            ],
+            "_version_": 1735678998732603392
+        },
+        {
+            "key": "/works/OL8415118W",
+            "type": "work",
+            "seed": [
+                "/books/OL7900786M",
+                "/works/OL8415118W",
+                "/authors/OL2806763A"
+            ],
+            "title": "Five Points Neighborhood of Denver  (CO)",
+            "title_suggest": "Five Points Neighborhood of Denver  (CO)",
+            "edition_count": 1,
+            "edition_key": [
+                "OL7900786M"
+            ],
+            "publish_date": [
+                "June 11, 2001"
+            ],
+            "publish_year": [
+                2001
+            ],
+            "first_publish_year": 2001,
+            "number_of_pages_median": 128,
+            "oclc": [
+                "47691535"
+            ],
+            "isbn": [
+                "0738518700",
+                "9780738518701"
+            ],
+            "last_modified_i": 1303742645,
+            "ebook_count_i": 0,
+            "ebook_access": "no_ebook",
+            "has_fulltext": false,
+            "public_scan_b": false,
+            "cover_edition_key": "OL7900786M",
+            "cover_i": 1371298,
+            "first_sentence": [
+                "After the Civil War, freed slaves came west from the south looking for work."
+            ],
+            "publisher": [
+                "Arcadia  Publishing (SC)"
+            ],
+            "language": [
+                "eng"
+            ],
+            "author_key": [
+                "OL2806763A"
+            ],
+            "author_name": [
+                "Laura M. Mauck"
+            ],
+            "id_librarything": [
+                "3305602"
+            ],
+            "publisher_facet": [
+                "Arcadia  Publishing (SC)"
+            ],
+            "_version_": 1735676935354187777,
+            "author_facet": [
+                "OL2806763A Laura M. Mauck"
+            ]
+        }
+    ],
+    "num_found": 47113,
+    "q": "Denver,CO",
+    "offset": null
+}
