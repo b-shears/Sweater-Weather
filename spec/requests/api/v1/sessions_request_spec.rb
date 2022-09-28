@@ -1,7 +1,6 @@
 require 'rails_helper'
 
 RSpec.describe "user session API" do 
-
     it 'can authenticate user credentials' do 
         user = User.create!(email: 'email@email.com', password: "password")
 
@@ -19,8 +18,6 @@ RSpec.describe "user session API" do
         expect(response).to be_successful 
         expect(response.status).to eq(200)
         
-        
-
         json = JSON.parse(response.body, symbolize_names: true)
         
         expect(json[:data]).to have_key(:id)
