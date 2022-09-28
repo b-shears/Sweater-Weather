@@ -3,7 +3,9 @@ class User < ApplicationRecord
     validates_presence_of :password
     has_secure_password
 
+    before_save :api_key
+    
     def api_key
-        password_digest
+        self.api_key = SecureRandom.hex(16)
     end 
 end 
