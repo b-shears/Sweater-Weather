@@ -2,11 +2,11 @@ require 'rails_helper'
 
 RSpec.describe "user session API" do 
     it 'can authenticate user credentials' do 
-        user = User.create!(email: 'email@email.com', password: "password")
+        user = User.create!(email: 'email@email.com', password: "9c75b3edd411086ba20fc43c3a743127" )
 
         user_login_params = {
                         "email": "email@email.com",
-                        "password": "password",
+                        "password": "9c75b3edd411086ba20fc43c3a743127",
                             }
 
         headers = {"CONTENT_TYPE" => "application/json"}
