@@ -6,6 +6,11 @@ module Response
     def session_json_response(object, status = :ok)
         render json: SessionSerializer.new(object), status: status
     end 
+
+    def road_trip_json_response(object, status = :ok)
+        render json: RoadtripSerializer.new(object), status: status
+    end 
+    
     def error_response(message, status)
         render json: message, status: status
     end
