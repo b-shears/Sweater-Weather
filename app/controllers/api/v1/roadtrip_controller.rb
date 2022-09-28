@@ -1,6 +1,7 @@
 class Api::V1::RoadtripController < ApplicationController
     def create
-         if User.exists?(password_digest: params[:api_key])
+      user = User.find_by(api_key: params[:api_key])
+         if User.exists?
            
             data = RoadtripFacade.create_road_trip(params[:origin], params[:destination])
          
