@@ -2,11 +2,11 @@ require 'rails_helper'
 
 RSpec.describe "user session API" do 
     it 'can authenticate user credentials' do 
-        user = User.create!(email: 'email@email.com', password: "9c75b3edd411086ba20fc43c3a743127" )
+        user = User.create!(email: 'email@email.com', password: "password" )
 
         user_login_params = {
                         "email": "email@email.com",
-                        "password": "9c75b3edd411086ba20fc43c3a743127",
+                        "password": "password",
                             }
 
         headers = {"CONTENT_TYPE" => "application/json"}
@@ -14,12 +14,12 @@ RSpec.describe "user session API" do
         post "/api/v1/sessions", headers: headers, params: JSON.generate(user_login_params)
         
         session_user = User.find_by!(email: user_login_params[:email])
-
+                          
         expect(response).to be_successful 
         expect(response.status).to eq(200)
-        
+      
         json = JSON.parse(response.body, symbolize_names: true)
-        
+                            
         expect(json[:data]).to have_key(:id)
         expect(json[:data]).to have_key(:type)
         expect(json[:data]).to have_key(:attributes)
@@ -27,6 +27,7 @@ RSpec.describe "user session API" do
         expect(json[:data][:attributes][:email]).to eq("email@email.com")
         expect(json[:data][:attributes]).to have_key(:api_key)
         expect(json[:data][:attributes][:api_key]).to eq(user.api_key)
+        expect(json[:data][:attributes][:api_key]).to be_a(String)
         expect(json[:data][:attributes]).to_not have_key(:password_digest)
     end 
 

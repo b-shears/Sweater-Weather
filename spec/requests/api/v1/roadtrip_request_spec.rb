@@ -13,18 +13,18 @@ RSpec.describe "Roadtrip API" do
 
         post "/api/v1/users", headers: headers, params: JSON.generate(user_login_params)
         
-        api_key = User.find_by!(email: "email@email.com").api_key
+        # api_key = User.find_by!(email: "email@email.com").api_key
         
         road_trip_attributes = {
             "origin": "Denver, CO",
             "destination": "Loveland, CO",
-            "api_key": api_key
+            "api_key": "#{user.api_key}"
         }
  
         headers = {"CONTENT_TYPE" => "application/json"}
 
         post "/api/v1/roadtrip", headers: headers, params: JSON.generate(road_trip_attributes)
-
+      
         expect(response).to be_successful
         expect(response.status).to eq(200)
     end 
