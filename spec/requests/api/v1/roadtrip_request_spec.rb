@@ -13,8 +13,6 @@ RSpec.describe "Roadtrip API" do
 
         post "/api/v1/users", headers: headers, params: JSON.generate(user_login_params)
         
-        # api_key = User.find_by!(email: "email@email.com").api_key
-        
         road_trip_attributes = {
             "origin": "Denver, CO",
             "destination": "Loveland, CO",
