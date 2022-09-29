@@ -1,5 +1,4 @@
 class Api::V1::BooksController < ApplicationController
-
     def index 
         if params[:quantity].to_i < 1
             render status: :bad_request

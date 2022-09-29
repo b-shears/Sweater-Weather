@@ -8,7 +8,6 @@ class Forecast
         @hourly_weather = format_hourly_weather(data[:hourly])
     end 
 
-
     def format_current_weather(current_weather)
         current = { datetime: Time.at(current_weather[:dt]),
                     sunrise: Time.at(current_weather[:sunrise]),
@@ -35,7 +34,6 @@ class Forecast
             }
             end
     end
-
 
     def format_hourly_weather(hourly_weather)
         hourly_weather.map do |hour|
