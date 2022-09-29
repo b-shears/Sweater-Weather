@@ -5,8 +5,10 @@ class RoadtripFacade
 
         destination = LocationFacade.create_location(to)
         destination_weather_json = WeatherService.search_location_weather(destination.latitude, destination.longitude)
-       
-        destination_temp = destination_weather_json[:current]
+     
+        travel_hours = travel_time_json[:route][:formattedTime][0].to_i
+    
+        destination_temp = destination_weather_json[:hourly][travel_hours]
             roadtrip = {
                     start_city: from,
                     end_city: to,
