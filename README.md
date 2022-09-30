@@ -4,16 +4,16 @@ Welcome to Sweather Weather! This Ruby on Rails API application helps plan road 
 In this service-oriented architecture, the (theoretical) front-end team will communicate with this back-end application through an API. Sweater Weather exposes the API that satisfies the front-end team’s requirements.
 
 ## Table of Contents
-* [Overview]
-* [Local Setup]
-* [Setup Steps]
-* [Running the Test Suite]
-* [Postman]
-* [Endpoints]
-  * [Create A New User]
-  * [Login As A User]
-  * [Roadtrip Weather Forecast]
-* [Contributor]
+* [Overview](https://github.com/b-shears/Sweater-Weather/blob/main/README.md#overview)
+* [Local Setup](https://github.com/b-shears/Sweater-Weather/blob/main/README.md#local-setup)
+* [Setup Steps](https://github.com/b-shears/Sweater-Weather/blob/main/README.md#setup-steps)
+* [Running the Test Suite](https://github.com/b-shears/Sweater-Weather/blob/main/README.md#running-the-test-suite)
+* [Postman](https://github.com/b-shears/Sweater-Weather/blob/main/README.md#postman)
+* [Endpoints](https://github.com/b-shears/Sweater-Weather/blob/main/README.md#endpoints)
+  * [Create A New User](https://github.com/b-shears/Sweater-Weather/blob/main/README.md#create-a-new-user)
+  * [Login As A User](https://github.com/b-shears/Sweater-Weather/blob/main/README.md#login-as-a-user)
+  * [Roadtrip Weather Forecast](https://github.com/b-shears/Sweater-Weather/blob/main/README.md#road-trip-weather-forecast)
+* [Author](https://github.com/b-shears/Sweater-Weather/blob/main/README.md#author)
 ## Local Setup 
 This project requires:
  * `Ruby 2.7.4`
@@ -132,5 +132,5 @@ NOTE: For `post` requests, send a `JSON` payload in the body of the request in P
     }
 }
 ``` 
-## Contributor
+## Author
  **Bryan Shears** - [GitHub](https://github.com/b-shears) - [LinkedIn](https://github.com/b-shears)
