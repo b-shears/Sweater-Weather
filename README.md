@@ -20,6 +20,11 @@ This project requires:
 * Install Figaro
    * `bundle exec figaro install`
 * Update the `application.yml` file with `ENV` variables storing API keys for [MapQuest](https://developer.mapquest.com/documentation/geocoding-api/) and [OpenWeather](https://openweathermap.org/api/one-call-api)(pages for obtaining API keys linked)
+
+```
+open_weather_api_key: <your_open_weather_api_key>
+mapquest_api_key: <your_mapquest_api_key>
+```
 ### Running the Test Suite
 * Delete spec/fixtures/vcr_cassettes, then run bundle exec rspec
 
