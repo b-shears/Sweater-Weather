@@ -56,7 +56,7 @@ NOTE: For `post` requests, send a `JSON` payload in the body of the request in P
             "email": "turing56@turing.com",
             "api_key": "ca5446922105a6d91a851d22d79b6637"
         }
-    }
+      }
    }
   ```
  #### Login As A User 
