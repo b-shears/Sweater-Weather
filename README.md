@@ -20,3 +20,6 @@ This project requires:
 * Install Figaro
    * `bundle exec figaro install`
 * Update the `application.yml` file with `ENV` variables storing API keys for [MapQuest](https://developer.mapquest.com/documentation/geocoding-api/) and [OpenWeather](https://openweathermap.org/api/one-call-api)(pages for obtaining API keys linked)
+### Running the Test Suite
+##Contributor
+ **Bryan Shears** - [GitHub](https://github.com/b-shears) - [LinkedIn](https://github.com/b-shears)
