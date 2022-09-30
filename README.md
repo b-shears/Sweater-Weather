@@ -88,5 +88,39 @@ NOTE: For `post` requests, send a `JSON` payload in the body of the request in P
        }
     }
     ```
+ #### Roadtrip 
+ * POST`api/v1/roadtrip` 
+ * A successful request
+ * A unsuccessful request
+
+ * Example Request: 
+  ```
+  {
+    "origin": "Denver,CO",
+    "destination": "Pueblo,CO",
+    "api_key": "ca5446922105a6d91a851d22d79b6637"
+  }
+  ```
+  
+ * Example Response: 
+ 
+ ``` 
+ {
+    "data": {
+        "id": null,
+        "type": "roadtrip",
+        "attributes": {
+            "id": null,
+            "origin": "Denver,CO",
+            "destination": "Pueblo,CO",
+            "travel_time": "1 hours, 45 minutes",
+            "weather_at_destination": {
+                "temperature": 85.14,
+                "conditions": "clear sky"
+            }
+        }
+    }
+}
+``` 
 ## Contributor
  **Bryan Shears** - [GitHub](https://github.com/b-shears) - [LinkedIn](https://github.com/b-shears)
