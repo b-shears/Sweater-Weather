@@ -99,9 +99,9 @@ NOTE: For `post` requests, send a `JSON` payload in the body of the request in P
     ```
  #### Road Trip Weather Forecast
  * POST `api/v1/roadtrip` 
- * A successful request returns the origin of the road trip, the destination, the time to travel to the destination, and the forecasted weather at the destination when you arrive 
- * A unsuccessful request will return a 401 status code and body with a description of why the request wasn’t successful.
- * Potential reasons a request would fail: User is unauthorized, must submit a valid API key 
+   *  A successful request returns the origin of the road trip, the destination, the time to travel to the destination, and the  forecasted weather at the destination when you arrive 
+   *  A unsuccessful request will return a 401 status code and body with a description of why the request wasn’t successful.
+   *  Potential reasons a request would fail: User is unauthorized, must submit a valid API key 
 
  * Example Request: 
   ```
