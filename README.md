@@ -34,11 +34,11 @@ In Postman, set appropriate HTTP verb, append endpoint URI to `http://localhost:
 NOTE: For `post` requests, send a `JSON` payload in the body of the request in Postman. Under the address bar, click on `Body`, select `raw`, and from the dropdown that says Text, select `JSON`.
 
 ## Endpoints 
-* Create a new user 
+#### Create a new user 
+* POST `/api/v1/users`
   *  A successful request creates a user in your database, and generates a unique api key associated with that user, with a 201 status code. The response should NOT include the password in any form
   *  An unsuccessful request returns a 422 status code and body with a description of why the request wasn’t successful. Potential reasons a request would fail: passwords don’t match, email has already been taken, missing a field, etc.
-* POST `/api/v1/users`
-  * Example Request:
+  * Example Request: (Create a new user)
   ```
   {
     "email": "turing56@turing.com",
@@ -59,5 +59,34 @@ NOTE: For `post` requests, send a `JSON` payload in the body of the request in P
     }
    }
   ```
+ #### Login as a user 
+ * POST `/api/v1/sessions`
+   *  A successful request returns the user’s api key.
+   *  An unsuccessful request returns a 401 status code and body with a description of why the request wasn’t successful.
+   *  Potential reasons a request would fail: credentials are bad, etc.
+   
+   * Example Request: (Log-in as an existing user)
+    ```
+    {
+      "email": "turing56@turing.com",
+      "password": "abc",
+      "password_confirmation": "abc"
+    }
+    ```
+    
+   * Example Response: (returns existing users API key)
+    
+    ```
+    {
+      "data": {
+          "id": "4",
+          "type": "session",
+          "attributes": {
+              "email": "turing56@turing.com",
+              "api_key": "ca5446922105a6d91a851d22d79b6637"
+          }
+       }
+    }
+    ```
 ## Contributor
  **Bryan Shears** - [GitHub](https://github.com/b-shears) - [LinkedIn](https://github.com/b-shears)
