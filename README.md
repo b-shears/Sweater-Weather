@@ -21,5 +21,12 @@ This project requires:
    * `bundle exec figaro install`
 * Update the `application.yml` file with `ENV` variables storing API keys for [MapQuest](https://developer.mapquest.com/documentation/geocoding-api/) and [OpenWeather](https://openweathermap.org/api/one-call-api)(pages for obtaining API keys linked)
 ### Running the Test Suite
-##Contributor
+* Delete spec/fixtures/vcr_cassettes, then run bundle exec rspec
+
+### Postman 
+In your Terminal, run `rails s`
+In Postman, set appropriate HTTP verb, append endpoint URI to `http://localhost:3000/`, and select `SEND`.
+NOTE: For `post` requests, send a `JSON` payload in the body of the request in Postman. Under the address bar, click on `Body`, select `raw`, and from the dropdown that says Text, select `JSON`.
+
+## Contributor
  **Bryan Shears** - [GitHub](https://github.com/b-shears) - [LinkedIn](https://github.com/b-shears)
