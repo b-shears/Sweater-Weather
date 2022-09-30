@@ -4,7 +4,16 @@ Welcome to Sweather Weather! This Ruby on Rails API application helps plan road 
 In this service-oriented architecture, the (theoretical) front-end team will communicate with this back-end application through an API. Sweater Weather exposes the API that satisfies the front-end team’s requirements.
 
 ## Table of Contents
-
+* [Overview]
+* [Local Setup]
+* [Setup Steps]
+* [Running the Test Suite]
+* [Postman]
+* [Endpoints]
+  * [Create A New User]
+  * [Login As A User]
+  * [Roadtrip Weather Forecast]
+* [Contributor]
 ## Local Setup 
 This project requires:
  * `Ruby 2.7.4`
