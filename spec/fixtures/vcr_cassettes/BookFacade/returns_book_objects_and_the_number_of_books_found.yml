@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Wed, 28 Sep 2022 23:34:06 GMT
+      - Mon, 09 Jan 2023 22:12:35 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -35,14 +35,14 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       X-Ol-Stats:
-      - '"SR 1 0.061 TT 0 0.062"'
+      - '"SR 1 0.074 TT 0 0.075"'
       Referrer-Policy:
       - no-referrer-when-downgrade
     body:
       encoding: UTF-8
       string: |-
         {
-            "numFound": 679,
+            "numFound": 727,
             "start": 0,
             "numFoundExact": true,
             "docs": [
@@ -221,118 +221,225 @@ http_interactions:
                     ]
                 },
                 {
-                    "key": "/works/OL4437736W",
+                    "key": "/works/OL32908194W",
                     "type": "work",
                     "seed": [
-                        "/books/OL10911511M",
-                        "/works/OL4437736W",
-                        "/authors/OL882946A"
+                        "/books/OL44751107M",
+                        "/works/OL32908194W",
+                        "/subjects/pictorial_works",
+                        "/subjects/municipal_buildings",
+                        "/subjects/office_buildings",
+                        "/subjects/hotels",
+                        "/subjects/school_buildings",
+                        "/subjects/domestic_architecture",
+                        "/subjects/church_buildings",
+                        "/subjects/industrial_buildings",
+                        "/subjects/st._john's_episcopal_cathedral_(denver_colo.)",
+                        "/subjects/colorado_state_capitol_(denver_colo.)",
+                        "/subjects/place:colorado",
+                        "/subjects/place:denver",
+                        "/subjects/place:denver_(colo.)",
+                        "/authors/OL7195277A"
                     ],
-                    "title": "Denver Co Deluxe Flip Map",
-                    "title_suggest": "Denver Co Deluxe Flip Map",
+                    "title": "A Souvenir of Denver",
+                    "title_suggest": "A Souvenir of Denver",
                     "edition_count": 1,
                     "edition_key": [
-                        "OL10911511M"
+                        "OL44751107M"
                     ],
                     "publish_date": [
-                        "January 2003"
+                        "1880"
                     ],
                     "publish_year": [
-                        2003
+                        1880
                     ],
-                    "first_publish_year": 2003,
-                    "isbn": [
-                        "0762557362",
-                        "9780762557363"
+                    "first_publish_year": 1880,
+                    "number_of_pages_median": 13,
+                    "publish_place": [
+                        "Denver, Colo"
                     ],
-                    "last_modified_i": 1260838560,
+                    "oclc": [
+                        "858919634"
+                    ],
+                    "last_modified_i": 1671671867,
                     "ebook_count_i": 0,
                     "ebook_access": "no_ebook",
                     "has_fulltext": false,
                     "public_scan_b": false,
                     "publisher": [
-                        "Universal Map Enterprises"
+                        "The Colorado News Company"
                     ],
                     "language": [
                         "eng"
                     ],
                     "author_key": [
-                        "OL882946A"
+                        "OL7195277A"
                     ],
                     "author_name": [
-                        "Laura Ryder"
+                        "Albertype Co"
+                    ],
+                    "place": [
+                        "Colorado",
+                        "Denver",
+                        "Denver (Colo.)"
+                    ],
+                    "subject": [
+                        "Pictorial works",
+                        "Municipal buildings",
+                        "Office buildings",
+                        "Hotels",
+                        "School buildings",
+                        "Domestic Architecture",
+                        "Church buildings",
+                        "Industrial buildings",
+                        "St. John's Episcopal Cathedral (Denver, Colo.)",
+                        "Colorado State Capitol (Denver, Colo.)"
                     ],
                     "publisher_facet": [
-                        "Universal Map Enterprises"
+                        "The Colorado News Company"
                     ],
-                    "_version_": 1735672139959238658,
+                    "place_key": [
+                        "colorado",
+                        "denver",
+                        "denver_(colo.)"
+                    ],
+                    "subject_facet": [
+                        "Church buildings",
+                        "Colorado State Capitol (Denver, Colo.)",
+                        "Domestic Architecture",
+                        "Hotels",
+                        "Industrial buildings",
+                        "Municipal buildings",
+                        "Office buildings",
+                        "Pictorial works",
+                        "School buildings",
+                        "St. John's Episcopal Cathedral (Denver, Colo.)"
+                    ],
+                    "_version_": 1752875004176891904,
+                    "place_facet": [
+                        "Colorado",
+                        "Denver",
+                        "Denver (Colo.)"
+                    ],
                     "author_facet": [
-                        "OL882946A Laura Ryder"
+                        "OL7195277A Albertype Co"
+                    ],
+                    "subject_key": [
+                        "church_buildings",
+                        "colorado_state_capitol_(denver_colo.)",
+                        "domestic_architecture",
+                        "hotels",
+                        "industrial_buildings",
+                        "municipal_buildings",
+                        "office_buildings",
+                        "pictorial_works",
+                        "school_buildings",
+                        "st._john's_episcopal_cathedral_(denver_colo.)"
                     ]
                 },
                 {
-                    "key": "/works/OL8808821W",
+                    "key": "/works/OL32779592W",
                     "type": "work",
                     "seed": [
-                        "/books/OL8537031M",
-                        "/works/OL8808821W",
-                        "/authors/OL3010394A"
+                        "/books/OL44601398M",
+                        "/works/OL32779592W",
+                        "/subjects/pictorial_works",
+                        "/subjects/streetscapes_(urban_design)",
+                        "/subjects/retail_stores",
+                        "/subjects/public_buildings",
+                        "/subjects/university_of_denver",
+                        "/subjects/place:colorado",
+                        "/subjects/place:denver",
+                        "/subjects/place:denver_(colo.)",
+                        "/authors/OL11612289A"
                     ],
-                    "title": "University of Denver Co 2007",
-                    "title_suggest": "University of Denver Co 2007",
+                    "title": "Denver",
+                    "title_suggest": "Denver",
                     "edition_count": 1,
                     "edition_key": [
-                        "OL8537031M"
+                        "OL44601398M"
                     ],
                     "publish_date": [
-                        "July 1, 2006"
+                        "1892"
                     ],
                     "publish_year": [
-                        2006
+                        1892
                     ],
-                    "first_publish_year": 2006,
-                    "number_of_pages_median": 180,
+                    "first_publish_year": 1892,
+                    "publish_place": [
+                        "Neenah, Wis"
+                    ],
                     "oclc": [
-                        "150368610"
+                        "895684170"
                     ],
-                    "isbn": [
-                        "9781427401687",
-                        "1427401683"
+                    "contributor": [
+                        "Pratt, Geo. B."
                     ],
-                    "last_modified_i": 1304171421,
+                    "last_modified_i": 1671574774,
                     "ebook_count_i": 0,
                     "ebook_access": "no_ebook",
                     "has_fulltext": false,
                     "public_scan_b": false,
-                    "cover_edition_key": "OL8537031M",
-                    "cover_i": 1847337,
                     "publisher": [
-                        "College Prowler"
+                        "Art Publishing Company"
                     ],
                     "language": [
                         "eng"
                     ],
                     "author_key": [
-                        "OL3010394A"
+                        "OL11612289A"
                     ],
                     "author_name": [
-                        "College Prowler"
+                        "Art Publishing Co"
                     ],
-                    "id_goodreads": [
-                        "2985742"
+                    "place": [
+                        "Colorado",
+                        "Denver",
+                        "Denver (Colo.)"
+                    ],
+                    "subject": [
+                        "Pictorial works",
+                        "Streetscapes (Urban design)",
+                        "Retail Stores",
+                        "Public buildings",
+                        "University of Denver"
                     ],
                     "publisher_facet": [
-                        "College Prowler"
+                        "Art Publishing Company"
                     ],
-                    "_version_": 1735677464197201922,
+                    "place_key": [
+                        "colorado",
+                        "denver",
+                        "denver_(colo.)"
+                    ],
+                    "subject_facet": [
+                        "Pictorial works",
+                        "Public buildings",
+                        "Retail Stores",
+                        "Streetscapes (Urban design)",
+                        "University of Denver"
+                    ],
+                    "_version_": 1752773193020473344,
+                    "place_facet": [
+                        "Colorado",
+                        "Denver",
+                        "Denver (Colo.)"
+                    ],
                     "author_facet": [
-                        "OL3010394A College Prowler"
+                        "OL11612289A Art Publishing Co"
+                    ],
+                    "subject_key": [
+                        "pictorial_works",
+                        "public_buildings",
+                        "retail_stores",
+                        "streetscapes_(urban_design)",
+                        "university_of_denver"
                     ]
                 }
             ],
-            "num_found": 679,
+            "num_found": 727,
             "q": "Denver, CO",
             "offset": null
         }
-  recorded_at: Wed, 28 Sep 2022 23:34:05 GMT
+  recorded_at: Mon, 09 Jan 2023 22:12:35 GMT
 recorded_with: VCR 6.1.0
