@@ -1,7 +1,7 @@
 ## Overview
 Welcome to Sweater Weather! This Ruby on Rails RESTful API that helps plan road trips. This app will allow users to see the the forecasted weather at the destination at the time of arrival.
 
-In this service-oriented architecture application, the (theoretical) front-end team will communicate with this back-end application by making API calls. Sweater Weather exposes data in a JSON format, allowing users to create a new account, log-in, generate a unique API key, as well as show the travel time and forecasted weather at the destination. 
+In this service-oriented architecture application, the (theoretical) front-end team will communicate with this back-end application by making API calls. Sweater Weather exposes data in a JSON format, allowing users to create a new account (generating a unique API key), log-in, as well as show the travel time and forecasted weather at the destination. 
 
 ## Table of Contents
 * [Overview](https://github.com/b-shears/Sweater-Weather/blob/main/README.md#overview)
