@@ -4,7 +4,7 @@ RSpec.describe WeatherService, :vcr do
     context "#search_location_weather(latitude, longitude)" do 
         it 'can return weather attributes for a specific lat & long' do 
             json = WeatherService.search_location_weather(39.73, -104.98)
-           
+            # binding.pry
             expect(json).to be_a(Hash)
            
             expect(json).to have_key(:lat)
