@@ -10,9 +10,11 @@ RSpec.describe NRELSearchService, :vcr do
     context "#find_nearest_station(location)" do 
          
         it "can return the nearest electric charging station to your searched location" do 
+            binding.pry
             location = create(:location)
+            binding.pry
             json = NRELSearchService.find_nearest_station(location)
-            # binding.pry
+            
             expect(json).to be_a(Hash)
             expect(json).to have_key(:latitude)
             expect(json[:latitude]).to eq(40.44561)
