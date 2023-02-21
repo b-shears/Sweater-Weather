@@ -1,6 +1,7 @@
 class LocationService 
     def self.search_location(location)
         response = conn_location.get("?location=#{location}")
+       
         json = JSON.parse(response.body, symbolize_names: true) if response.status == 200
     end
 

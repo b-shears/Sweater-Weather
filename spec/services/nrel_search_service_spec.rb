@@ -2,10 +2,19 @@ require 'rails_helper'
 
 RSpec.describe NRELSearchService, :vcr do 
 
+    # before :each do 
+    #     @location = { latitude: 40.44561, longitude: -105.07816 }
+    # end 
+  
+
     context "#find_nearest_station(location)" do 
+         
         it "can return the nearest electric charging station to your searched location" do 
-            json = NRELSearchService.find_nearest_station(80538)
-          
+            binding.pry
+            location = create(:location)
+            binding.pry
+            json = NRELSearchService.find_nearest_station(location)
+            
             expect(json).to be_a(Hash)
             expect(json).to have_key(:latitude)
             expect(json[:latitude]).to eq(40.44561)
@@ -19,7 +28,7 @@ RSpec.describe NRELSearchService, :vcr do
             expect(json[:location_country]).to eq("US")
 
             expect(json).to have_key(:fuel_stations)
-            # binding.pry
+            
             json[:fuel_stations].each do |fuel_station|
                 expect(fuel_station).to have_key(:access_code)
                 expect(fuel_station).to have_key(:access_days_time)

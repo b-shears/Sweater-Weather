@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v2.5.2
+      - Faraday v2.7.4
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Thu, 26 Jan 2023 19:19:33 GMT
+      - Thu, 16 Feb 2023 22:10:35 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -35,14 +35,14 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       X-Ol-Stats:
-      - '"SR 1 0.065 TT 0 0.066"'
+      - '"SR 1 0.103 TT 0 0.105"'
       Referrer-Policy:
       - no-referrer-when-downgrade
     body:
       encoding: UTF-8
       string: |-
         {
-            "numFound": 735,
+            "numFound": 737,
             "start": 0,
             "numFoundExact": true,
             "docs": [
@@ -330,9 +330,9 @@ http_interactions:
                     ]
                 }
             ],
-            "num_found": 735,
+            "num_found": 737,
             "q": "denver,co",
             "offset": null
         }
-  recorded_at: Thu, 26 Jan 2023 19:19:33 GMT
+  recorded_at: Thu, 16 Feb 2023 22:10:35 GMT
 recorded_with: VCR 6.1.0
