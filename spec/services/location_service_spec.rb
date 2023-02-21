@@ -3,8 +3,7 @@ require 'rails_helper'
 RSpec.describe LocationService, :vcr do 
     context "#search_location(location)" do 
         it 'can retrieve the latitude and longitude of a city you search for' do 
-            location = LocationService.search_location("Denver, CO")
-
+            
             expect(location).to be_a(Hash)
             expect(location).to have_key(:results)
 
